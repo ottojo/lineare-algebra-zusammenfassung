@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+ 
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" 
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     version="1.1" baseProfile="full"
+     width="120mm" height="50mm">
+<defs>
+	<g id="ArrowH" stroke="black" stroke-width="1.5">
+		<line x1="5" x2="105" y1="0" y2="0" />
+		<line x1="105" x2="95" y1="0" y2 = "5"/>
+		<line x1="105" x2="95" y1="0" y2 = "-5"/>
+	</g>
+	<use id="ArrowV" xlink:href="#ArrowH" transform="rotate(-90)"/>
+	<g id="Kn">
+		<text font-size="20">K</text>
+
+		<text font-size="15" x="13" y="-10">n</text>
+	</g>
+	<g id="Km">
+		<text font-size="20">K</text>
+		<text font-size="15" x="13" y="-10">m</text>
+	</g>
+	<g id="MABf">
+
+		<text font-size="15">M</text>
+		<text font-size="10" x="14" y="-6">A</text>
+		<text font-size="10" x="12" y="4" >B</text>
+		<text font-size="15" x="20">(f)</text>
+	</g>
+	<g id="TA'A">
+		<text font-size="15">T</text>
+
+		<text font-size="10" x="12" y="-6">A'</text>
+		<text font-size="10" x="10" y="4" >A</text>
+	</g>
+	<g id="TBB'">
+		<text font-size="15">T</text>
+		<text font-size="10" x="12" y="-6">B</text>
+		<text font-size="10" x="10" y="4" >B'</text>
+	</g>
+</defs>
+
+
+<use x="28" y="25" xlink:href="#ArrowH" />
+<use x="158" y="25" xlink:href="#ArrowH" />
+<use x="288" y="25" xlink:href="#ArrowH" />
+
+<use x="158" y="155" xlink:href="#ArrowH" />
+<use x="28" y="155" xlink:href="#ArrowH" />
+<use x="288" y="155" xlink:href="#ArrowH" />
+
+<use x="18"  y="143" xlink:href="#ArrowV" />
+<use x="148" y="143" xlink:href="#ArrowV" />
+<use x="278" y="143" xlink:href="#ArrowV" />
+<use x="408" y="143" xlink:href="#ArrowV" />
+
+<text font-size="15" x="75" y="17">id</text>
+<text font-size="15" x="335" y="17">id</text>
+
+
+<g font-style="italic">
+	<text font-size="20" x="10"  y="30">V</text>
+	<text font-size="20" x="140" y="30">V</text>
+	<text font-size="20" x="270" y="30">W</text>
+	<text font-size="20" x="400" y="30">W</text>
+
+	<text font-size="10" x="87" y="20">V</text>
+	<text font-size="10" x="347" y="20">W</text>
+	
+	<use xlink:href="#Kn" x="10" y="160"/>
+	<use xlink:href="#Kn" x="140" y="160"/>
+	<use xlink:href="#Km" x="270" y="160"/>
+	<use xlink:href="#Km" x="400" y="160"/>
+
+	<text font-size="15" x="210" y="17">f</text>
+
+	<use x="200" y="172" xlink:href="#MABf"/>
+	<use x="70" y="172" xlink:href="#TA'A"/>
+	<use x="330" y="172" xlink:href="#TBB'"/>
+
+	<text font-size="15" x="1" y="100" >A'</text>
+	<text font-size="15" x="130" y="100">A</text>
+	<text font-size="15" x="260" y="100">B</text>
+	<text font-size="15" x="410" y="100" >B'</text>
+</g>
+</svg>
